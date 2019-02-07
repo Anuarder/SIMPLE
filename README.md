@@ -1,3 +1,3 @@
 # SIMPLE
 Header for landing
-!['/assets/image.png']
+![]('/assets/image.png')
