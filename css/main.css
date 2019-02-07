@@ -1,0 +1,87 @@
+a{
+  color: #ececec;
+}
+a:hover{
+  color: #00c2fd;
+}
+body{
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ececec;
+  font-size: 1rem;
+  background-color: #000000;
+}
+
+.header{
+  padding: 3rem;
+}
+.navbar{
+  line-height: 1.5rem;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.showcase{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.showcase .btn{
+  font-size: 1.5rem;
+}
+.head-footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  font-size: 1.3rem;
+  font-weight: 200;
+  line-height: 4vh;
+}
+.head-footer a{
+  font-size: 4vh;
+}
+
+.social-icons a{
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 430px){
+  h2{
+    font-size: 1.4rem;
+  }
+  .navbar-brand{
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .head-footer{
+    display: block;
+  }
+  .head-footer div{
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  .showcase .btn{
+    font-size: 1.1rem;
+  }
+}
+@media only screen and (max-width: 320px){
+  h2{
+    font-size: 1.2rem;
+  }
+  .navbar{
+    font-size: .7rem;
+  }
+}
+@media only screen and (min-width: 1400px){
+  .navbar-brand{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 3rem;
+  }
+}
