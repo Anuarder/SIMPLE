@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 4rem;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./img/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+}
+.logo{
+    color: #000;
+    font-weight: 800;
+}
+.phone{
+    color: #fff;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 4rem;
+    right: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.comfort{
+    color: #000000;
+    font-size: 1.5rem;
+}
+.comfort img{
+    margin-top: 2rem;
+}
+.comfort p{
+    margin-top: 5px; 
+}
+.about{
+    text-align: right;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.about h3{
+    margin-top: 5px;
+}
+.order-btn{
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border: 1px solid #ddd;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 60px;
+    width: 188px;
+    height: 62px;
+    outline: none;
+}
+.order-btn:hover{
+    color: #000;
+    background-color: #fff;
+    transition: .3s;
+}
+.order-btn:active{
+    background-color: #dadada;
+}
+.footer{
+    position: absolute;
+    bottom: 4rem;
+    left: 4rem;
+    right: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer a{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.social a{
+    font-size: 2rem;
+    margin-right: 5px;
+}
